@@ -1,0 +1,28 @@
+{
+  "name": "playwright_framework_july_2026",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "csv:convert": "tsx lib/csvToJson.ts",
+    "pretest": "npm run csv:convert",
+    "test": "playwright test",
+    "test:api": "playwright test --project=api",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^22.20.2",
+    "@types/papaparse": "^5.5.2",
+    "allure-playwright": "^3.12.2",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "papaparse": "^5.7.0"
+  }
+}

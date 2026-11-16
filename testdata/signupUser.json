@@ -1,0 +1,8 @@
+{
+  "name": "QA Planner",
+  "password": "Test@1234",
+  "interests": ["PlaywrightTests", "JavaScript"],
+  "gender": "Female",
+  "state": "Karnataka",
+  "hobbies": ["Reading", "Singing"]
+}
